@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "tap \"test/**/*.test.js\"",
     "start": "fastify start -l info app.js",
     "dev": "fastify start -w -l info -P app.js"
   },
